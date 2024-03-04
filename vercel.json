@@ -48,7 +48,7 @@
       },
       {
         "src": "/auth/(.*)",
-        "dest": "server.js"
+        "dest": "index.js"
       },
       {
         "src": "/cart",
