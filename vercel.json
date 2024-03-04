@@ -66,7 +66,14 @@
         "src": "/orders/(.*)",
         "dest": "server.js"
       },
-    
+      {
+        "src": "/webhook",
+        "dest": "index.js"
+      },
+      {
+        "src": "/create-payment-intent",
+        "dest": "index.js"
+      },
       {
         "src": "/",
         "dest": "build/index.html"
